@@ -1,0 +1,64 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": ["Hello! How can I help you today?", "Hi there, what can I do for you?", "Hey! How may I assist you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Talk to you soon"],
+      "responses": ["Goodbye! Have a great day.", "See you soon!", "Take care!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Appreciate it", "Thanks a lot"],
+      "responses": ["You're welcome!", "Happy to help!", "No problem at all!"]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["What are your working hours?", "When are you open?", "Opening time", "Closing time"],
+      "responses": ["We are open from 9 AM to 6 PM, Monday to Friday."]
+    },
+    {
+      "tag": "payments",
+      "patterns": ["What payment methods do you accept?", "Can I pay with UPI?", "Do you take credit cards?"],
+      "responses": ["We accept UPI, credit/debit cards, and net banking."]
+    },
+    {
+      "tag": "shipping",
+      "patterns": ["How long does shipping take?", "When will I get my order?", "Delivery time"],
+      "responses": ["Standard shipping takes 3–5 business days. Express delivery is 1–2 days."]
+    },
+    {
+      "tag": "returns",
+      "patterns": ["How can I return a product?", "What is your return policy?", "Can I get a refund?"],
+      "responses": ["You can return products within 7 days of delivery. Refunds are processed within 3–5 business days."]
+    },
+    {
+      "tag": "order_status",
+      "patterns": ["Where is my order?", "Track my order", "Order status"],
+      "responses": ["Please provide your order ID, and I’ll help you track it."]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["How do I contact support?", "I need help", "Customer service"],
+      "responses": ["You can reach us at support@example.com or call +91-1234567890."]
+    },
+    {
+      "tag": "smalltalk",
+      "patterns": ["How are you?", "What’s up?", "How’s it going?"],
+      "responses": ["I’m just a bot, but I’m doing great! How can I help you?", "I’m always here to help you."]
+    },
+    {
+      "tag": "about",
+      "patterns": ["Tell me about your company", "What do you do?", "Who are you?"],
+      "responses": ["We are Pinnacle Labs, focused on delivering AI and software solutions to make your life easier."]
+    },
+    {
+      "tag": "products",
+      "patterns": ["What products do you offer?", "Tell me about your services", "Do you have any software tools?"],
+      "responses": ["We provide AI-based solutions, software development, and cloud integration services."]
+    }
+  ]
+}
